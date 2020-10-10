@@ -1,8 +1,8 @@
 # Handpose demo
 
-## Contents
+## Descrição 
 
-This demo shows how to use the handpose model to detect hands in a video stream.
+Repositório criado para resolver o desafio de desenvolver um serviço que rode no navegador para detecção de mão, com o principal objetivo de predizer o ângulo theta, entre os pontos 8 e 4(imagem abaixo), em tempo real. O serviço foi criado utilizando Javascript/Typescript e teve como base a aplicação demo [Handpose](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 
 ## Setup
 
@@ -64,3 +64,4 @@ To get future updates from the handpose source code:
 cd ../
 yarn build && yarn yalc push
 ```
+
