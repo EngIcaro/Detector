@@ -12,6 +12,7 @@ Repositório criado para resolver o desafio de desenvolver um serviço que rode 
 
 ## Pré-requisitos
 
+* Instalar [Python3+](https://www.python.org/downloads/) 
 * Instalar [MediaPipe](https://google.github.io/mediapipe/getting_started/install.html)
 
 ## Build
