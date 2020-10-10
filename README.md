@@ -4,8 +4,8 @@
 
 Repositório criado para resolver o desafio de desenvolver um serviço que rode no navegador para detecção de mão, com o principal objetivo de predizer o ângulo theta, entre os pontos 8 e 4(imagem abaixo), em tempo real. O serviço foi criado utilizando Javascript/Typescript e teve como base a aplicação demo [Handpose](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 
-<img src="img/hand.png"> 
-<img src="img/example.png">  
+<img src="img/hand.png" align="center"> 
+<img src="img/example.png"">  
 
 ## Pré-requisitos
 
