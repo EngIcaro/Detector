@@ -1,27 +1,34 @@
-# Handpose demo
+# Detector de mão
 
 ## Descrição 
 
 Repositório criado para resolver o desafio de desenvolver um serviço que rode no navegador para detecção de mão, com o principal objetivo de predizer o ângulo theta, entre os pontos 8 e 4(imagem abaixo), em tempo real. O serviço foi criado utilizando Javascript/Typescript e teve como base a aplicação demo [Handpose](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 
-## Setup
+## Pré-requisitos
 
-cd into the demos folder:
+* Instalar [MediaPipe](https://google.github.io/mediapipe/getting_started/install.html)
+
+## Build
+
+Entre na pasta:
 
 ```sh
-cd handpose/demo
+cd Detector
 ```
 
-Install dependencies and prepare the build directory:
+Instale as dependências e prepare o diretório:
 
 ```sh
 yarn
 ```
-
-To watch files for changes, and launch a dev server:
+Para observar as alterações nos arquivos e iniciar um servidor:
 
 ```sh
 yarn watch
+```
+
+Abra o servidor na porta indicada, Exemplo:
+```http://localhost:1234
 ```
 
 ## If you are developing handpose locally, and want to test the changes in the demos
